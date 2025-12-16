@@ -1,42 +1,18 @@
-saveetha-hostel-app/
-├── public/
-│   ├── index.html
-│   └── manifest.json
-├── src/
-│   ├── assets/
-│   │   ├── images/
-│   │   └── styles/
-│   │       └── global.css
-│   ├── components/
-│   │   ├── Auth/
-│   │   │   ├── Login.js
-│   │   │   └── Register.js
-│   │   ├── Common/
-│   │   │   ├── Button.js
-│   │   │   ├── InputField.js
-│   │   │   └── Navbar.js
-│   │   ├── Dashboard/
-│   │   │   ├── AdminDashboard.js
-│   │   │   └── StudentDashboard.js
-│   │   ├── Room/
-│   │   │   ├── RoomList.js
-│   │   │   └── RoomDetails.js
-│   │   └── Student/
-│   │       ├── StudentList.js
-│   │       └── StudentProfile.js
-│   ├── contexts/
-│   │   └── AuthContext.js
-│   ├── hooks/
-│   │   └── useAuth.js
-│   ├── pages/
-│   │   ├── AdminPage.js
-│   │   ├── HomePage.js
-│   │   ├── LoginPage.js
-│   │   ├── RegisterPage.js
-│   │   └── StudentPage.js
-│   ├── App.js
-│   ├── index.js
-│   └── routes.js
-├── .gitignore
-├── package.json
-└── README.md
+# Saveetha Hostel Management Application
+
+This is a React-based web application designed to manage the Saveetha Hostel. It provides functionalities for administrators to manage rooms, students, and fees, and for students to view their profiles and hostel information.
+
+
+-   **User Authentication:** Secure login and registration for students and administrators.
+-   **Dashboard:** Personalized dashboards for students and administrators.
+-   **Room Management (Admin):** View, add, edit, and delete hostel rooms.
+-   **Student Management (Admin):** View, add, edit, and delete student records.
+-   **Student Profile (Student & Admin):** View detailed student information.
+-   **Fee Tracking (Admin):** Manage and monitor fee payments.
+-   **Responsive Design:** Accessible on various devices.
+
+
+-   **Frontend:** React.js
+-   **Routing:** React Router DOM
+-   **State Management:** React Context API
+-   **Styling:** CSS (with some basic utility classes)
