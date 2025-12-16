@@ -1,0 +1,30 @@
+-   Node.js and npm (or yarn) installed on your machine.
+
+
+1.  Clone the repository:
+    ```bash
+    git clone <repository-url>
+    cd saveetha-hostel-app
+    ```
+
+2.  Install dependencies:
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+
+1.  Start the development server:
+    ```bash
+    npm start
+    # or
+    yarn start
+    ```
+    This will start the application and open it in your default browser, typically at `http://localhost:3000`.
+
+
+-   **Mock Data:** Currently, much of the data (students, rooms, authentication) is mocked for demonstration purposes. In a production environment, this data would be fetched from and sent to a backend API.
+-   **Authentication:** The `AuthContext` and `useAuth` hook manage user authentication state. Local storage is used for persistence.
+-   **Routing:** `react-router-dom` is used for navigation. Protected routes ensure that only authorized users can access certain pages.
+-   **Font Awesome:** Icons are used for dashboard elements. Ensure you have Font Awesome loaded in your project (e.g., via CDN in `public/index.html` or installed as a dependency). I've added `font-awesome` to devDependencies, but you might need to include its CSS.
